@@ -117,7 +117,7 @@ function PostStatus() {
 
   return (
     <div className="post-container col-12">
-      
+
       <div className="row">
         <h1 className="post-title">Post Status!</h1>
       </div>
@@ -150,7 +150,7 @@ function PostStatus() {
 
         </div>
       </div>
-      
+
     </div>
   )
 }

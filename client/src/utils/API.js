@@ -5,6 +5,10 @@ export default {
 
   postPosting: (data) => { return axios.post('/api/posting', data) },
 
+  deletePost: () => { return axios.delete('/api/posting/:id')},
+
+  getPostById: () => { return axios.get('/api/posting/:_id')},
+
   getContacts: () => { return axios.get("/api/contacts") },
 
   contactForm: (data) => { return axios.post("/api/contacts", data) },
